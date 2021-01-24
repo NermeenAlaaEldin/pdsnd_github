@@ -209,6 +209,7 @@ def main():
         df = load_data(city, month, day)
 
         time_stats(df)
+        station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
 
